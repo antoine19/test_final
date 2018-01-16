@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+/* BODY */
+
+.body
+{
+	background: #0080D1;
+	color: #ffffff;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	line-height: 1.65;
+}
+
+/* MENU */
+
+.topnav
+{
+	background-color: #0080D1;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.topnav a
+{
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover
+{
+	background-color: #ffffff;
+	color: #0080D1;
+}
+
+.topnav a.active
+{
+	background-color: #ffffff;
+	color: #0080D1;
+}
+
+/* USERS ACCESS */
+
+.account
+{
+	background-color: #0080D1;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.account a
+{
+	float: right;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.account a:hover
+{
+	background-color: #ffffff;
+	color: #0080D1;
+}
+
+.account a.active
+{
+	background-color: #ffffff;
+	color: #0080D1;
+}
+
+/* SIGN */
+
+.modal1
+{
+		min-height: 100%;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=submit], input[type=number], select {
+    width: 100%;
+		padding: 3px 3px;
+   	margin: 3px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* CANCEL AND SIGN UP BUTTONS */
+.button {
+		float: right;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		margin-right: 25%;
+    width: 50%;
+    padding: 5px 5px;
+}
+
+.content {
+		padding: 10px;
+		font-size: 15px;
+}
+
+.content a
+{
+  float: inherit;
+	color: #ffffff;
+	text-align: inherit;
+	padding: inherit;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+.content a:hover
+{
+	background-color: inherit;
+	color: inherit;
+  text-decoration: underline;
+}
+
+/* MODAL BOX */
+.modal_content {
+		margin: 10% auto 10% auto;
+    background-color: #0080D1;
+/*	border: 1px solid; */
+    width: 50%;
+}
+
+/* CLEAR */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* BANNER */
+
+#banner
+{
+	align-items: center;
+	display: flex;
+	padding:6em 0 5em 0 ;
+	height: 30vh;
+	max-height: 30em;
+	min-height: 20em;
+}
+
+#banner h1
+{
+	color: #ffffff;
+	font-weight: 300;
+	line-height: 1.65;
+	margin: 0 0 1em 0;
+  font-size: 2.5em;
+}
+
+#banner.content
+{
+  content: '';
+	background-color: #ffffff;
+	display: block;
+	height: 2px;
+	margin: 0.325em 0 0.5em 0;
+	width: 100%;
+}
+
+/* FOOTER */
+
+.footer
+{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #ffffff;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	position: fixed;
+}
+
+.footer a
+{
+	float: left;
+	color: #0080D1;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.footer a:hover
+{
+	background-color: #0080D1;
+	color: #ffffff;
+}
+
+.footer a.active
+{
+	background-color: #0080D1;
+	color: #ffffff;
+}
+
+.footer select
+{
+	float: right;
+	color: #0080D1;
+	margin: 20px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* MANAGE HOME */
+
+.big_block
+{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block0
+{
+	border: solid 1px #ffffff;
+	margin: 8% auto 7% auto;
+	padding: 15px;
+}
+
+.block
+{
+	border: solid 1px #ffffff;
+	width: 12em;
+	float: left;
+}
